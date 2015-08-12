@@ -1,7 +1,8 @@
 var timer_buttons = document.createElement('ul'); 
-timer_buttons.className = 'first ops'; 
-timer_buttons.id = 'timer_buttons'; 
+timer_buttons.className = 'first ops';
+timer_buttons.id = 'timer_buttons';
 timer_buttons.innerHTML = '<li><a id="start-button" class="button first">Toggle timer</a></li><li class="last" style="position: relative"><a id="task-selector" class="button more last drop"><span id="current-task">Task name</span><span class="icon drop-menu"></span></a><div id="harvest-tasks" style="display: none; position: absolute; top: 21px; left: 0px"></div></li>';
+
 var menu = document.getElementsByClassName('ops-cont')[0];
 menu.appendChild(timer_buttons);
 timer_buttons.style.opacity = "0.5";
